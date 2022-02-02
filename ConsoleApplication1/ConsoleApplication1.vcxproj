@@ -141,11 +141,15 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="c_Employer.cpp" />
+    <ClCompile Include="c_Manager.cpp" />
     <ClCompile Include="c_President.cpp" />
+    <ClCompile Include="c_Worker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c_Employer.h" />
+    <ClInclude Include="c_Manager.h" />
     <ClInclude Include="c_President.h" />
+    <ClInclude Include="c_Worker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

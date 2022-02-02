@@ -8,7 +8,7 @@ protected:
 	std::string position;
 	char gender;
 	int salary;
-	c_Employer(std::string name, std::string lastName,std::string position, int salary, char gender);
+	c_Employer(std::string name, std::string lastName, int salary, char gender);
 public:
 	virtual void print() = 0;
 };

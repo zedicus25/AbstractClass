@@ -6,8 +6,9 @@ private:
 	std::string country;
 	int termOfOffice;
 public:
-	c_President(std::string name, std::string lastName, std::string position, int salary, char gender, std::string country, int termOfOffice) : c_Employer(name, lastName,position, salary, gender) {
+	c_President(std::string name, std::string lastName, int salary, char gender, std::string country, int termOfOffice) : c_Employer(name, lastName, salary, gender) {
 		this->country = country;
+		this->position = "President";
 		try
 		{
 			if (termOfOffice < 0 || termOfOffice > 5) {

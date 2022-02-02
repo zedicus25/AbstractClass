@@ -24,12 +24,24 @@
     <ClCompile Include="c_President.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="c_Manager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="c_Worker.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c_Employer.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="c_President.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="c_Manager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="c_Worker.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
