@@ -1,6 +1,8 @@
-﻿#include <iostream>
+﻿#include "c_President.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    c_President* pr = new c_President("Jo", "Baiden", "President", 10000, 'M', "USA", 4);
+    pr->print();
+    
 }
